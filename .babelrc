@@ -1,0 +1,15 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./artifacts"],
+        "alias": {
+          "images": "./src/assets/images"
+        },
+        "cwd": "babelrc"
+      }
+    ]
+  ]
+}

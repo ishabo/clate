@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "artifacts",
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "pretty": true,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "importHelpers": true,
+    "paths": {
+      "*": ["src/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "filesGlob": ["typings/index.d.ts", "src/**/*.ts", "src/**/*.tsx"],
+  "types": ["react", "react-native", "jest"],
+  "exclude": ["android", "ios", "build", "node_modules"],
+  "compileOnSave": false,
+  "lib": ["dom", "es7"]
+}
